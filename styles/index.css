@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+/*Lexend, Lato, Noto Sans*/
+
+.root {
+  --fonts: 'Poppins','Noto Sans', 'Lexend', verdana, arial, sans-serif;
+  /*Blacks*/
+  --mainBlack: #2f2e41;
+  --mainBlack: #242428;
+  --mainBlack: #363a41;
+  --mainBlack: #33373c;
+
+
+  --mainBlack: #242428;
+  /*Greys*/
+  --contentColor: #585858;
+  --contentColor: #4b4f58;
+  --contentColor: #666769;
+  --offWhiteColor: #f8f9f9;
+  --bright: #fefefe;
+  --mainBlue: #8285e8;
+  --mainBlue: #565be0;
+  --mainBlue: #5f63e6;
+  /*
+  padding: 1.25rem;
+  background-color: #e9eaf8;
+  */
+  --bodyFontSize: 1rem;
+  --bodyParagraphSize : 1em;
+  --sectionTitleSize: 2.25rem;
+  --h2size: 1.65rem;
+  --h3size: 1.25rem;
+  --h4size: 1.25rem;
+  --job: 1rem;
+  --landingPageHello: 2rem;
+  --LandingPage: 3.5rem;
+  --LandingPageSchool: 1rem;
+  --typeheight: 5rem;
+  --header: 1.15rem;
+}
+
+.center {
+  justify-content: center;
+}
+
+.left {
+  justify-content: left;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.text-left {
+  text-align: left;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.Section-title-wrap {
+  display: flex;
+}
+
+.Section-header {
+  /*Colors*/
+  color: var(--mainBlue);
+  color: #8d96aa;
+  color: #7c8394;
+
+
+  margin-bottom: 0.5rem;
+  font-size: var(--header);
+}
+
+.Section-title {
+  font-weight: 600;
+  font-size: var(--sectionTitleSize);
+  color: var(--mainBlue);
+  color: var(--mainBlack);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0rem;
+  line-height: 35px;
+  /*
+  border-bottom: 4px solid #e76215;
+  */
+}
+
+.Section-title-wrap p {
+  max-width: 40rem;
+  color: var(--contentColor);
+  font-size: var(--bodyFontSize);
+}
+
+.Landing-Page-School p {
+  max-width: 40rem;
+  font-size: var(--bodyFontSize);
+}
+
+
+.Section-subtitle {
+  color: var(--mainBlack);
+  font-weight: 600;
+  font-size: var(--h3size);
+}
+
+.divider-wrap {
+  display: flex;
+  justify-content: center;
+  height: 5px;
+  margin-bottom: 2rem;
+}
+
+.divider {
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  background-color: var(--mainBlue);
+  border-radius: 25px;
+}
+
+.Main-wrap {
+  margin: 0 auto;
+  padding: 0px 1.0875rem 1.45rem;
+  padding-top: 0;
+}
+
+
+.max-width-container {
+  max-width: 1400px;
+  max-width: 1250px;
+  max-width: 1140px;
+
+}
+
+
+
+
+.smaller {
+  font-size: var(--landingPageHello);
+  color: #E9E9E9;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+}
+
+
+h3 {
+  font-size: var(--h3size);
+  margin: 0px;
+  font-weight: 400;
+  color: var(--mainBlack);
+  font-family: var(--fonts);
+}
+
+
+h4 {
+  font-family: var(--fonts);
+  font-size: var(--h4size);
+  font-weight: 600;
+  margin: 15px 0px;
+  color: var(--mainBlack);
+}
+
+h2 {
+  font-family: var(--fonts);
+  font-weight: 600;
+  color: var(--mainBlack);
+  font-size: var(--h2size);
+}
+
+#about,
+#tech {
+  margin-bottom: 0.35rem;
+}
+
+.spacer {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.layer4 {
+  background-image: url('../images/Photographs/glenn-carstens-peters-npxXWgQ33ZQ-unsplash(2).jpg');
+  background-image: url('../images/Photographs/glenn-carstens-peters-npxXWgQ33ZQ-unsplash\(3\).jpg');
+
+}
+
+.layer5 {
+
+  background-image: url('../images/Photographs/ian-dooley-DJ7bWa-Gwks-unsplash\(1\).jpg');
+}
+
+
+.border {
+  border-style: solid;
+  border-color: #E9E9E9;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+
+}
+
+.undraw-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+}
+
+
+
+
+
+@media only screen and (max-width:915px) {
+
+
+/* --bodyFontSize: 1rem;
+  --bodyParagraphSize : 1em;
+  --sectionTitleSize: 2.25rem;
+  --h2size: 1.65rem;
+  --h3size: 1.25rem;
+  --h4size: 1.25rem;
+  --job: 1rem;
+  --landingPageHello: 2rem;
+  --LandingPage: 3.5rem;
+  --LandingPageSchool: 1rem;
+  --typeheight: 5rem;
+  --header: 1.15rem;*/
+
+
+  .root {
+    --bodyFontSize: 1rem;
+    --sectionTitleSize: 2.25rem;
+    --h2size: 1.60rem;
+    --h3size: 1.2rem;
+    --h4size: 1.2rem;
+    --job: 1rem;
+
+
+    --landingPageHello: 1.88rem;
+    --LandingPage: 3.35rem;
+    --LandingPageSchool: 0.85rem;
+    --header: 1rem;
+  }
+
+}
+
+@media only screen and (max-width:580px) {
+
+
+  .root {
+
+    --bodyFontSize: 1rem;
+    --sectionTitleSize: 1.85rem;
+    --h2size: 1.45rem;
+    --h3size: 1.05rem;
+    --h4size: 1.05rem;
+    --job: 1.05rem;
+
+    --landingPageHello: 1.5rem;
+    --LandingPage: 1.75rem;
+    --typeheight: 3rem;
+
+  }
+
+}
+
+
+@media only screen and (max-width:370px) {
+
+
+
+  .root {
+    --bodyFontSize: 0.85rem;
+    --sectionTitleSize: 1.5rem;
+    --h2size: 1.45rem;
+    --h3size: 0.9rem;
+    --h4size: 0.9rem;
+    --job: 0.9em;
+
+    --landingPageHello: 0.85rem;
+    --LandingPage: 1.28rem;
+    --typeheight: 2rem;
+    --LandingPageSchool: 0.70rem;
+    --header: 0.85rem;
+  }
+
+}
+

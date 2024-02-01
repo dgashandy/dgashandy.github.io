@@ -1,0 +1,93 @@
+.Skills-Global {
+    padding-top: 67px;
+    padding-bottom: 67px;
+    background-color: var(--offWhiteColor);
+}
+
+.Skills-Container {
+    color: var(--mainBlack);
+    font-family: var(--fonts);
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 8%;
+}
+
+.service {
+    font-weight: 500;
+}
+
+.Skill-wrap {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+
+.Skill-Section {
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: var(--offWhiteColor);
+    border: 1px solid rgb(185, 181, 181, 0.5);
+    border-radius: 20px;
+    /*
+    box-shadow: 0 .25rem 1.75rem rgba(30, 34, 40, .07)
+    */
+}
+
+
+
+.skill-content {
+    margin: 1rem;
+}
+
+/*Experience skill*/
+
+.skill-photo-wrap {
+    margin-bottom: 2rem;
+}
+
+.skill-icon {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--mainBlack);
+
+}
+
+.skill-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.skill-container p {
+    font-size: var(--bodyFontSize);
+    color: var(--contentColor);
+
+}
+
+.skill {
+    font-size: var(--bodyFontSize);
+    margin: 0.5rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    color: var(--bright);
+
+    background-color: rgb(32, 32, 33);
+}
+
+@media only screen and (max-width:900px) {
+    .Skill-wrap {
+        margin-top: 1rem;
+        display: block;
+
+    }
+
+    .Skill-Section {
+        margin-bottom: 2rem;
+    }
+}

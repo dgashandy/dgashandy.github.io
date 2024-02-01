@@ -1,0 +1,113 @@
+.Experience-Global {
+  padding-top: 67px;
+  padding-bottom: 67px;
+  background-color: var(--bright);
+}
+
+.Experience-Box {
+  margin-top: 3rem;
+}
+
+.job-date {
+  font-size:var(--job);
+  margin: 10px 0px;
+}
+
+.job-company {
+  font-size:var(--job);
+  margin: 10px 0px;
+}
+.job-title {
+  font-size: var(--h3size);
+  font-weight: 500;
+}
+
+
+.Experience-Inner {
+  display: flex;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  box-sizing: border-box;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left {
+  margin-right: 10%;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  background-color: rgb(185, 181, 181, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: -3px;
+}
+
+.container {
+  padding: 10px 30px;
+  position: relative;
+
+  height: 50%;
+
+
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: -11px;
+  background-color: var(--mainBlack);
+  top: 45px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.content {
+  
+  position: relative;
+  width: 90%;
+  padding: 17px 30px 0px;
+  border-radius: 5px;
+  border: 1px solid rgb(185, 181, 181, 0.5);
+  height: 95%;
+}
+.content p {
+  font-size: var(--bodyFontSize);
+}
+
+
+.Experience-Container {
+  color: var(--contentColor);
+  font-family: var(--fonts);
+  line-height: 25px;
+  font-style: normal;
+  letter-spacing: 8%;
+}
+
+
+
+ul li {
+  font-size: var(--bodyFontSize);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media only screen and (max-width:950px) {
+  .left {
+    margin-right: 0;
+  }
+
+  .Experience-Inner {
+    display: block;
+  }
+
+}

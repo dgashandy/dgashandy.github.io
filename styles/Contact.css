@@ -1,0 +1,166 @@
+.Contact-Global {
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    background-color: var(--bright);
+
+}
+
+.Contact-links p {
+    font-size: var(--bodyFontSize);
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.Contact-Container {
+    color: var(--contentColor);
+    font-family: var(--fonts);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Contact-Title {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.Contact-Wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#Contact-Me {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/*Contact Quick*/
+.Contact-links {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Contact-Quick {
+    min-width: 50%;
+}
+
+.contact-socials {
+    display: flex;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+
+/*undraw photo*/
+.contact-image-contain {
+    height: 400px;
+    width: auto;
+}
+
+
+/*Contact Form*/
+.Contact-Form-Input {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+}
+
+label {
+    font-size: var(--bodyFontSize);
+
+}
+
+.name {
+    display: grid;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+
+}
+
+
+.email-seg {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+#email {
+    width: 100%;
+}
+
+
+.message-seg {
+
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+input[type=text] {
+    background-color: var(--offWhiteColor);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: var(--fonts);
+    outline-width: 0;
+    font-size: var(--bodyFontSize);
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+textarea {
+    background-color: var(--offWhiteColor);
+    font-family: var(--fonts);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline-width: 0;
+    font-size: var(--bodyFontSize);
+    width: 100%;
+}
+
+input[type=button] {
+    background-color: var(--offWhiteColor);
+    font-family: var(--fonts);
+    border-radius: 4px;
+    color: var(--mainBlack);
+    border: 1px solid #ccc;
+    outline-width: 0;
+    margin-right: 1.5rem;
+    font-size: var(--bodyFontSize);
+    padding: 6px 14px;
+    transition: all .2s ease-out;
+}
+
+input[type=button]:hover {
+    background-color: rgb(210, 213, 214);
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width:1100px) {
+    .Contact-Quick {
+        margin-bottom: 2rem;
+    }
+
+    .Contact-Form-Input {
+        width: 100%;
+    }
+
+
+
+    /*undraw photo*/
+    .contact-image-contain {
+        height: 300px;
+        width: auto;
+    }
+
+
+
+}

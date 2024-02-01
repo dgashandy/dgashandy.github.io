@@ -1,1 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Andrew" />
+  <meta name="description" content="Andrew" />
+  <title>dgashandy</title>
+  <link rel="shortcut icon" href="images/canadian_geese_rMo_icon.ico">
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="styles/NavigationBar.css" />
+  <link rel="stylesheet" href="styles/LandingPage.css" />
+  <link rel="stylesheet" href="styles/Experience.css" />
+  <link rel="stylesheet" href="styles/Projects.css" />
+  <link rel="stylesheet" href="styles/Contact.css" />
+  <link rel="stylesheet" href="styles/AboutMe.css" />
+  <link rel="stylesheet" href="styles/Skills.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-dfSNAzm20lF9TcXNl67zfmzvi22LmwCfJAGlJ/DO7bC11lGTaSEY/JZeqBqG4QqD" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/71c6f26d48.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="root">
+    <!--Navigation Bar-->
+    <header class=" Navigation-Bar-Container" id="Navigation-Bar-Container">
+      <div class="wrap-nav max-width-container" id="wrap-navigation">
+        <div class="logo">
+          <a href="index.html" id="logo-text">
+            DGASHANDY
+          </a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="DisplayOptions()" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+
+        <!--<img src="images/Images/download (1).svg" alt="Logo" style="padding: 5px;" id="logo">  -->
+        <nav id="NormalNavBar">
+          <ul class="Navigation">
+            <li class="nav-buttons nav-button-style fancy-link">
+              <a data-link="Landing-Page" title="Home" class="scroll_to active" id="home-text-normal">
+                HOME
+              </a>
+            </li>
+            <li class="nav-buttons nav-button-style fancy-link">
+              <a href="https://docs.google.com/document/d/1zod003GrtjRJcu75GMhkqi49aoV57xh5ghbNYqRTCkA/edit?usp=drive_link" title="CV" class="scroll_to" id="">
+                CV
+              </a>
+            </li>
+            <li class="nav-buttons nav-button-style fancy-link">
+              <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
+                ABOUT
+              </a>
+            </li>
+
+            <li class="nav-buttons nav-button-style fancy-link">
+              <a data-link="Service-Me" title="Service" class="scroll_to" id="service-text">
+                BLOGS
+              </a>
+            </li>
+            <li class="nav-buttons nav-button-style fancy-link">
+              <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
+                RESUME
+              </a>
+            </li>
+
+            <li class="nav-buttons nav-button-style fancy-link">
+              <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text-normal">
+                PORTFOLIO
+              </a>
+            </li>
+            <li class="nav-buttons nav-button-style fancy-link">
+              <a data-link="Contact-Me" title="Contact" class="scroll_to" id="Contact-text-normal">
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="mobile-nav" id="myLinks">
+        <nav class="MobileView">
+          <ul class="Nav">
+            <li class="nav-buttons">
+              <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
+                HOME
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a href="https://docs.google.com/document/d/1zod003GrtjRJcu75GMhkqi49aoV57xh5ghbNYqRTCkA/edit?usp=drive_link" title="CV" class="scroll_to" id="">
+                CV
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
+                ABOUT
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="Service-Me" title="Service" class="scroll_to" id="service-text">
+                BLOGS
+              </a>
+            </li>
+
+            <li class="nav-buttons">
+              <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
+                RESUME
+              </a>
+            </li>
+
+            <li class="nav-buttons">
+              <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
+                PORTFOLIO
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="Contact-Me" title="Contact" class="scroll_to" id="Contact-text">
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <!--Landing Page-->
+    <div class="Landing-Page-Global top spacer layer4" id="Landing-Page">
+      <section class="Main-wrap maximize-width max-width-container">
+
+        <section class="Landing-Page-Container">
+          <div class="landing-page-wrap">
+            <div class="Content-Container">
+              <div>
+
+                <div class="Words-Container">
+                  <h2 class="smaller">Hello!</h2>
+                  <div class="type">
+                    <h1 class="typewriter" id="type-writer-content">I'm Mohammad Daffa Gashandy.</h1>
+                  </div>
+                  <div class="Landing-Page-School">
+                    <!--                    <p> Computer Science Student 📖 | University of Waterloo 🏫 | Software Developer 👨‍💻 |
+                      Software Tester 🤖 </p>-->
+
+                    <p> I am Bachelor of Computer Science from Gadjah Mada University. and I am a Data Science Enthusiast
+                    </p>
+                  </div>
+                </div>
+
+                <div class="button-group">
+
+                  <button id="Go-to-Contact" onclick="Resume();">
+                    Resume
+                  </button>
+
+                </div>
+
+              </div>
+            </div>
+            <a data-link="About-Me" class="scroll_to">
+              <div class="scroll-down"></div>
+            </a>
+          </div>
+
+        </section>
+      </section>
+    </div>
+
+    <!--About Me-->
+    <div class="About-Me-Global top" id="About-Me">
+      <section class="Main-wrap max-width-container">
+        <section class="About-Me-Container" data-aos="fade-up">
+          <div class="Section-title-wrap center">
+            <div class="Section-title-container text-center">
+              <h1 class="Section-header">ABOUT</h1>
+              <h2 class="Section-title">Personal Info</h2>
+              <p>Here you will learn a little bit about myself, how I got into the industry, and some of the
+                technologies I use.</p>
+
+            </div>
+          </div>
+
+          <div class="about-me-large-wrap">
+            <div class="About-Me-Wrap">
+              <div class="about-image">
+                <img src="images/Photographs/DaffaKemejaPutih.jpg" class="about-image-contain"></img>
+              </div>
+              <div class="about-me-info">
+                <div>
+                  <div class="Section-title-wrap">
+                    <div class="Section-title-container">
+                      <h2 id="about">Hello! I am Mohammad Daffa Gashandy</h2>
+
+
+                    </div>
+                  </div>
+
+
+                  <div class="About-Me-Description">
+                    <p>🎓 <strong>Bachelor of Computer Science | Gadjah Mada University</strong></p>
+                    <p>
+                      Passionate about leveraging technology to drive innovation, I hold a Bachelor's degree in Computer Science 
+                      with a focus on Data Science and Web Development from Gadjah Mada University.
+                    </p>
+                    <p>🚀 <strong>Skills & Technical Proficiency:</strong></p>
+                    <ol>
+                      <li style="line-height: 0.2;">Data Science</li>
+                      <p>Proficient in using Python, Pandas, NumPy, and Scikit-Learn for data analysis and machine learning applications.</p>
+                      <li style="line-height: 0.2;">Web Development</li>
+                      <p>Skilled in building responsive and dynamic web applications using React.js, Node.js, and Flask. Also MySQL, MongoDB for Databases</li>
+                      <li style="line-height: 0.2;">Design</li>
+                      <p>A keen eye for aesthetics and user-centric design principles, enhancing the overall user experience using Adobe Illustrator, Photoshop, and Figma.</p>
+                    </ol>
+                   <p>💡 <strong>Professional Overview:</strong></p>
+                    <p>
+                      Driven by a curiosity for solving complex problems, my academic background 
+                      has equipped me with a strong foundation in computer science. I have applied this knowledge
+                      to hands-on projects, demonstrating my ability to transform raw data into actionable 
+                      intelligence and develop intuitive web applications.</p>
+                  </div>
+                  <div class="socials">
+                    <a href="https://github.com/dgashandy" target="_blank">
+                      <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
+                      </span>
+                    </a>
+            
+                    <a href="https://www.linkedin.com/in/mohammad-daffa-gashandy/" target="_blank" class="socials-icon">
+                      <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
+                      </span>
+                    </a>
+                    <a href="https://scholar.google.com/citations?id=your-google-scholar-id" target="_blank" class="socials-icon">
+                      <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">   
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="ai ai-google-scholar ai-stack-1x" id="google-scholar-icon"></i>
+                      </span>
+                    </a>
+                    <a href="https://discord.com/users/@piggyassault" target="_blank" class="socials-icon">
+                      <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fab fa-discord fa-stack-1x" id="discord-icon"></i>
+                      </span>
+                    </a>                                       
+                    <a href="https://www.youtube.com/channel/UCrM1KZqDtkieb-jU1ynUTug" target="_blank" class="socials-icon">
+                      <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fab fa-youtube fa-brands fa-stack-1x" id="youtube-icon"></i>
+                      </span>
+                    </a>
+                    <a href="https://www.instagram.com/dgashandy/" target="_blank" class="socials-icon">
+                      <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fab fa-instagram fa-brands fa-stack-1x" id="instagram-icon"></i>
+                      </span>
+                    </a>
+                    <a href="mailto: dgashandy@gmail.com" class="socials-icon">
+                      <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                        <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+
+                <section class="about-Skills-Container">
+                  <!--Skills Title-->
+                  <div class="Section-title-wrap">
+                    <div class="Section-title-container">
+                      <h2 id="tech">Technologies</h2>
+
+                    </div>
+                  </div>
+
+                  <!--Skills Content-->
+                  <div class="about-Skill-wrap">
+                    <div class="about-Skill-Section" id="Programming-Lang">
+                      <div class="about-skill-container" id="Programming-Languages">
+                        <div class="about-skill">
+                          <code>Pandas</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>Numpy</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>Scikit-Learn</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>Matplotlib</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>HTML</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>CSS</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>ReactJS</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>NodeJS</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>Flask</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>MySQl</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>MongoDB</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>Figma</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>Adobe Ilustrator</code>
+                        </div>
+                        <div class="about-skill">
+                          <code>Adobe Photoshop</code>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+
+
+
+        </section>
+      </section>
+    </div>
+
+
+    <!--School Skills-->
+    <div class="Skills-Global top" id="Service-Me">
+      <section class="Main-wrap max-width-container">
+        <section class="Skills-Container" data-aos="fade-up">
+          <div class="Section-title-wrap center">
+            <div class="Section-title-container text-center">
+              <h1 class="Section-header">BLOGS</h1>
+              <h2 class="Section-title">What I Do</h2>
+              <p>This section consists of some of the services i can offer, my diary, and what I can bring to the table.</p>
+            </div>
+          </div>
+
+          <!--Skills Content-->
+          <div class="Skill-wrap">
+
+            <div class="Skill-Section" id="Programming-Lang">
+              <div class="skill-content">
+                <i class="fa-solid fa-person-walking-luggage skill-icon"></i>
+                <div class="skill-title">
+                  <h3 class="service">Part-Time Traveler</h3>
+                </div>
+                <div class="skill-container" id="Programming-Languages">
+                  <p>
+                  Balancing daily life with intermittent escapes, the part-time traveler relishes the journey as much as the destination, savoring the sweet spot between routine and wanderlust.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Skill-Section" id="Programming-Lang">
+              <div class="skill-content">
+                <i class="fa-solid fa-hand-holding-heart skill-icon"></i>
+                <div class="skill-title">
+                  <h3 class="service">Community Involvment</h3>
+
+                </div>
+                <div class="skill-container" id="Programming-Languages">
+                  <p>
+                  Enjoy being involved in the community. Part of Riau Student Union of The Gadjah Mada University (KEMARIGAMA) and Student Union of Computer Science Gadjah Mada (HIMAKOM).
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Skill-Section" id="Programming-Lang">
+              <div class="skill-content">
+                <i class="fa-solid fa-gamepad skill-icon"></i>
+                <div class="skill-title">
+                  <h3 class="service">Games and Hobbies</h3>
+
+                </div>
+                <div class="skill-container" id="Programming-Languages">
+                  <p>
+                  Having fun time playing video games, read a bunch of novel, and do some sports.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Skill-Section" id="Programming-Lang">
+              <div class="skill-content">
+                <i class="fa-solid fa-user-graduate skill-icon"></i>
+                <div class="skill-title">
+                  <h3 class="service">Reseach and Scholarhip</h3>
+
+                </div>
+                <div class="skill-container" id="Programming-Languages">
+                  <p>
+                    Diving into the realms of research and scholarship, where curiosity meets knowledge, paving the way for new insights and academic endeavors.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Skill-Section" id="Libraries-Frameworks">
+              <div class="skill-content">
+                <i class="fa-solid fa-code  skill-icon"></i>
+                <div class="skill-title">
+                  <h3 class="service">Software Development</h3>
+                </div>
+                <div class="skill-container" id="Libraries-Frameworks">
+                  <p>
+                    I have worked several jobs in the past related to software. I'm able to work on full-stack applications and 
+                    Data Science project.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Skill-Section" id="Tools">
+              <div class="skill-content">
+                <i class="fa-solid fa-computer  skill-icon"></i>
+                <div class="skill-title">
+                  <h3  class="service">Solid Software Foundation</h3>
+                </div>
+                <div class="skill-container" id="Tools">
+                  <p>
+                    I have a solid foundation in Computer Science and have taken courses relating to object orientated
+                    programming, data structures, algorithms, etc.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </section>
+    </div>
+
+
+
+    <!--Experience-->
+    <div class="Experience-Global top" id="Experience-Me">
+      <section class="Main-wrap max-width-container">
+        <section class="Experience-Container" data-aos="fade-up">
+          <div class="Section-title-wrap center">
+            <div class="Section-title-container text-center">
+              <h1 class="Section-header">RESUME</h1>
+              <h2 class="Section-title">Experience</h2>
+              <p>This section consists of my experience and the jobs I have worked. I am looking for more Software
+                Developer roles </p>
+
+            </div>
+          </div>
+
+          <div class="Experience-Box">
+            <div class="Experience-Inner">
+
+              <div class="timeline left">
+
+                <div class="container">
+                  <div class="content">
+                    <h3 class ="job-date">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="job-title">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="job-company">Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident suscipit rem mollitia eum quaerat et beatae nisi expedita vitae? Amet praesentium eius a dignissimos? Rerum velit fugiat accusamus itaque.</p>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="content">
+                    <h3 class ="job-date">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="job-title">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="job-company">Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae est a expedita, fugit impedit nostrum quas fugiat inventore iusto consectetur dicta sunt corporis aspernatur! Delectus non quis unde explicabo ab.</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="timeline">
+                <div class="container">
+                  <div class="content">
+                    <h3 class ="job-date">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="job-title">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="job-company">Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure optio soluta laboriosam praesentium in earum numquam repudiandae harum consectetur ab atque impedit doloribus, reiciendis quas. Molestias ab enim quae.</p>
+                  </div>
+                </div>
+
+                <div class="container">
+                  <div class="content">
+                    <h3 class ="job-date">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="job-title">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="job-company">Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quasi repudiandae quo quia neque beatae at placeat inventore sint, dolores laboriosam minus distinctio eius quam soluta accusantium? Explicabo, vitae corporis?</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <!--Projects-->
+    <div class="Projects-Global top" id="Projects-Me">
+      <section class="Main-wrap max-width-container">
+        <section class="Projects-Container" data-aos="fade-up">
+          <!--Project Title-->
+          <div class="Section-title-wrap center">
+            <div class="Section-title-container text-center">
+              <h1 class="Section-header">PORTFOLIO</h1>
+              <h2 class="Section-title">Selected Projects</h2>
+              <p>These are some of the projects that I have made. I started off with some web development, or others. But mostly my works is 
+                developing more data science and machine learning project.
+              </p>
+            </div>
+          </div>
+
+          <!--Project Content-->
+          <div class="Projects-Box">
+
+
+            <div class="Project-section">
+              <div>
+                <div class="image-box">
+                  <img src="images/SalesForcast.jpg" class="project-image"></img>
+                </div>
+                <div class="Projects-desc">
+                  <div class="Section-wrap">
+                    <h4>Sales Forecasting</h4>
+                    <div class="Section-Content">
+                      <p class="Project-Text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus et eos est nisi sapiente, perferendis architecto harum optio quaerat non illo fugit nulla omnis ad dolore consectetur ut veniam ipsum!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="See-work-link">
+                  <a href="https://github.com/dgashandy" target="_blank">
+                    <!--<h5 class="enabled">See Code &#8594</h5> -->
+                    <div class="github-button enabled"> See Code</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="Project-section">
+              <div>
+                <div class="image-box">
+                  <img src="images/MaskSSD.jpg" class="project-image"></img>
+                </div>
+                <div class="Projects-desc">
+                  <div class="Section-wrap">
+                    <h4>Mask Detection using Single Shot Detection (SSD)</h4>
+                    <div class="Section-Content">
+                      <p class="Project-Text">
+                      Presenting my portfolio project: Mask Detection using Single Shot Detection (SSD). Leveraging advanced computer vision, this system efficiently identifies and classifies individuals wearing masks in real-time, contributing to enhanced safety measures. Explore the fusion of technology and public health in action
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="See-work-link">
+                  <a href="https://github.com/dgashandy/Deep-Learning/tree/main/Mask%20Detection%20with%20SSD%20Architecture" target="_blank">
+                    <!--<h5 class="enabled">See Code &#8594</h5> -->
+                    <div class="github-button enabled"> See Code</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="Project-section">
+              <div>
+                <div class="image-box">
+                  <img src="images/3DTransform.jpg" class="project-image"></img>
+                </div>
+                <div class="Projects-desc">
+                  <div class="Section-wrap">
+                    <h4>3D Transformation Open GL</h4>
+                    <div class="Section-Content">
+                      <p class="Project-Text">
+                      Highlighting my proficiency in graphics programming, my portfolio includes a project on 3D Transformation using OpenGL. This endeavor showcases my skills in leveraging OpenGL's capabilities to manipulate and render three-dimensional objects, offering a glimpse into my expertise in computer graphics and visualization
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="See-work-link">
+                <a href="https://github.com/dgashandy/Computer-Graph/tree/main/3D%20Transformation" target="_blank">
+                  <div class="github-button enabled"> See Code</div>
+                </a>
+              </div>
+            </div>
+
+            <div class="Project-section">
+              <div>
+                <div class="image-box" id="Breakout-Image">
+                  <img src="images/SistemRekomendasiObat.jpg" class="project-image"></img>
+                </div>
+                <div class="Projects-desc" id="Breakout-Section">
+                  <div class="Section-wrap">
+                    <h4>Drugs Distribution System</h4>
+                    <div class="Section-Content">
+                      <p class="Project-Text">
+                        Introducing my project: Drugs Distribution System with Intelligent Clustering. Leveraging AccuWeather API for weather insights, demographic data acquired through web scraping, and a user-friendly landing page powered by Jinja, this system optimizes drug distribution efficiency. Explore the intersection of data science, API integration, and web development in enhancing supply chain strategies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="See-work-link">
+                <a href="https://github.com/dgashandy/RecommendationSystemDEXA" target="_blank">
+                  <div class="github-button enabled"> See Code</div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+      </section>
+    </div>
+
+    <!--Contact-->
+    <div class="Contact-Global top" id="Contact-Me">
+      <section class="Main-wrap max-width-container">
+        <section class="Contact-Container" data-aos="fade-up">
+          <div class="Section-title-wrap center">
+            <div class="Section-title-container text-center">
+              <h1 class="Section-header">CONTACT</h1>
+              <h2 class="Section-title">Get in Touch</h2>
+            </div>
+          </div>
+
+          <div class="Contact-Wrap">
+            <div class="Contact-Quick">
+              <div class="Contact-links">
+                <p>Got any questions? <br> Feel free to email me at
+                  <b>dgashandy@gmail.com</b>
+                </p>
+              </div>
+
+              <div class="contact-socials">
+                <a href="https://github.com/dgashandy" target="_blank">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
+                  </span>
+                </a>
+        
+                <a href="https://www.linkedin.com/in/mohammad-daffa-gashandy/" target="_blank" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
+                  </span>
+                </a>
+                <a href="https://scholar.google.com/citations?id=your-google-scholar-id" target="_blank" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">   
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="ai ai-google-scholar ai-stack-1x" id="google-scholar-icon"></i>
+                  </span>
+                </a>
+                <a href="https://discord.com/users/@piggyassault" target="_blank" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-discord fa-stack-1x" id="discord-icon"></i>
+                  </span>
+                </a>                                       
+                <a href="https://www.youtube.com/channel/UCrM1KZqDtkieb-jU1ynUTug" target="_blank" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-youtube fa-brands fa-stack-1x" id="youtube-icon"></i>
+                  </span>
+                </a>
+                <a href="https://www.instagram.com/dgashandy/" target="_blank" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-instagram fa-brands fa-stack-1x" id="instagram-icon"></i>
+                  </span>
+                </a>
+                <a href="mailto: dgashandy@gmail.com" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+    <!--Footer-->
+    <footer class>
+      <div class="footer-container max-width-container">
+        <div class="footer-name">
+          Credits to <strong>@ Andrew Lin</strong> | Usage by <strong>@ dgashandy</strong>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </div>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 150, delay: 200, duration: 250, once: true, easing: 'ease', anchorPlacement: 'top-bottom', });
+  </script>
+
+</body>
+</html>
